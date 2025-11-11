@@ -1,4 +1,5 @@
 {
+      "type": "module",
       "name": "스터디룸 생성 페이지",
       "version": "0.1.0",
       "private": true,
