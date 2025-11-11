@@ -15,7 +15,7 @@ import { useUser } from "./components/UserContext";
 import StudyRoom from "./components/StudyRoom";
 
 // ✅ 카메라 미리보기 컴포넌트 추가
-import WebcamView from "./WebcamView";
+import WebcamView from "./WebCamView";
 
 export default function Landing() {
   const { user } = useUser();
