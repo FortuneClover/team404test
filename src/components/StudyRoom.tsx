@@ -7,7 +7,7 @@ import { Progress } from "./ui/progress";
 import { ScrollArea } from "./ui/scroll-area";
 import { Avatar } from "./ui/avatar";
 import { ArrowLeft, Send, AlertTriangle, CheckCircle2 } from "lucide-react"; // Video 제거
-import WebcamView from "../WebCamView";
+import WebCamView from "../WebCamView";
 
 interface StudyRoomProps {
   roomId: number;
@@ -85,7 +85,7 @@ export default function StudyRoom({ roomId, onBack, username }: StudyRoomProps) 
             <Card className="p-6">
               {/* ✅ 여기만 교체: 아이콘 박스 → 실제 카메라 미리보기 */}
               <div className="aspect-video bg-black rounded-lg overflow-hidden mb-4">
-                <WebcamView />
+                <WebCamView />
               </div>
 
               <div className="flex justify-center gap-4">
