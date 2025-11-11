@@ -7,7 +7,7 @@ import { Progress } from "./ui/progress";
 import { ScrollArea } from "./ui/scroll-area";
 import { Avatar } from "./ui/avatar";
 import { ArrowLeft, Send, AlertTriangle, CheckCircle2 } from "lucide-react"; // Video 제거
-import WebcamView from "../WebcamView";
+import WebcamView from "../WebCamView";
 
 interface StudyRoomProps {
   roomId: number;
